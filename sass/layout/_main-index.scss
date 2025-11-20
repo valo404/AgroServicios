@@ -1,0 +1,53 @@
+body {
+    font-family: $tipografia;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 2rem;
+    background-color: #6db84c;
+
+    .contenedor-principal {
+        background-color: #ffff;
+        border-radius: 1rem;
+        width: 100%;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+        .hero {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                gap: 20px;
+                text-align: center;
+        
+                h1 {
+                    text-align: center;
+                }
+            }
+
+/*         .h1-index{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+                h1{
+                    text-align: center;
+                }
+        } */
+        /* .h1-index {
+            width: 95%;
+            height: 3.125rem;
+            margin: 1.875rem;
+            display: flex;
+            justify-content: center;
+
+            h1 {
+                font-size: 4.375rem;
+                text-align: center;
+            }
+        } */
+    }
+
+}

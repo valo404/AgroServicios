@@ -1,0 +1,14 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    img {
+        width: 6.25rem;
+        height: 6.25rem;
+        margin-top: 1.5625rem;
+    }
+    span{
+        color: #6db84c;
+        font-size: 3.125rem;
+    }
+}

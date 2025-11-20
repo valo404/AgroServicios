@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    gap: 1.25rem;
+    list-style: none;
+    
+    ul{
+        display: flex;
+        gap: 1.25rem;
+        
+        li{
+            list-style: none;
+            a{
+                color: black;
+            }
+        }
+    }
+}
